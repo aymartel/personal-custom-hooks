@@ -1,11 +1,6 @@
-# useForm Hook
+# useScroll Hook
 
 Ejemplo de uso:
 ```
-    const initialForm ={
-        name: '',
-        age: 0,
-        email: '',
-    }
-    const [ values, handleInputChange, reset] = useForm(initialForm);
+    const { scrollX, scrollY, scrollDirection } = useScroll();
 ```
